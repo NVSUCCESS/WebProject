@@ -1,0 +1,20 @@
+table#t1011 {
+  width: 100%;
+  background-color: #FFA500;
+}
+table#t1011 tr:nth-child(even) {
+  background-color: #eee;
+}
+table#t1011 tr:nth-child(odd) {
+  background-color: #fff;
+}
+table#t1011 th {
+  color: white;
+  background-color:black;
+}
+table#t1011 tr:nth-child(even):hover {
+  background-color: #ffff99;
+}
+table#t1011 tr:nth-child(odd):hover {
+  background-color: #ffff99;
+}
