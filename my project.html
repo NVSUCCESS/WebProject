@@ -1,5 +1,19 @@
 <html>
     <head>  
+	
+	<script>
+	
+		function nandini(){
+			
+			var count=document.getElementById("trial").innerHTML;
+			var conv=parseInt(count);
+			conv=conv+1;
+			document.getElementById("trial").innerHTML=conv.toString();
+			
+		}
+	
+	</script>
+	
 	<link rel="stylesheet"href="stylesheets.css">
 	    <body>
 		    <div class="header">
@@ -35,6 +49,8 @@
             <body style="background-color:powderblue">
 		<h3>
 		
+		<div>Click: <span id="trial">0</span><div>
+		<button onclick="nandini()">Submit</button>
 		<p style="color:red;">
 		hey!! you have to tell your name  and number first to know about me:
 		<input type="text" 
